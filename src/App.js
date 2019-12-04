@@ -46,7 +46,7 @@ class App extends React.Component {
             </Route>
             <Route path="/">
               <StockCardGroup stocks={this.state.stocks}></StockCardGroup>
-              <div>Built and deployed using Travis CI</div>
+              <div>Built and deployed using Google Cloud Build</div>
             </Route>
           </Switch>
         </Container>
